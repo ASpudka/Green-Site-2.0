@@ -1,18 +1,13 @@
-body{
-  max-width: 95vw;
-  margin: auto;
-}
 :root{
   --main-color: #65C466;
-  --head-color: white;
+  --head-font-color: white;
 
   font-family: 'Mulish', sans-serif;
   font-family: 'Water Brush', cursive;
   font-size: 12px;
 }
-.btn{
-  padding: 1%; 
-  border: 1px solid var(--head-color);
+.btn{ 
+  border: 1px solid var(--head-font-color);
   border-radius: 5%;
   background-color: #00000000;
   color: inherit;

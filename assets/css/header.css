@@ -1,0 +1,60 @@
+.main-header{
+  padding: 3%;
+  border: 1px sold var(--main-color);
+  border-radius: 1%;
+  background-color: var(--main-color);
+  color: var(--head-font-color);
+}
+
+.logo {
+  align-self: center;
+  font-size: 2rem;
+  text-indent: 2rem;
+}
+
+.head-link{
+  display: inline-block;
+  
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.phone{
+  width:24px;
+  height: 24px;
+  background-size: 20px;
+
+
+  background-image: url(./../images/icon/phone.png);
+
+}
+
+.sing, .head-phone {
+  text-align: center;
+}
+
+.sing-icon{
+  width: 32px;
+  height: 32px;
+  background-size: 24px;
+
+  background-image: url(./../images/icon/registration.png);
+}
+.burger{
+  
+  width: 80px;
+  height: 80px;
+  background-size: 80px;
+
+  background-image: url(./../images/icon/image_button.png);
+}
+@media screen and (max-width: 768px){
+.head-phone, .btn, .sing{
+  display: none;
+}
+}
+
+@media screen and (min-width: 768px){
+.burger{
+  display: none;
+}
+}
