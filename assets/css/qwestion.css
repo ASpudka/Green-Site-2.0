@@ -1,0 +1,23 @@
+
+.online-qwestion-header{
+  font-size: 2rem;
+  color: var(--main-color)
+}
+.wrapper{
+  width:24px;
+  height: 24px;
+  
+  padding: 3%;
+  border: 2px solid rgb(219, 213, 213);
+  border-radius: 50%;
+  background-color: var(--main-color);
+}
+
+.men-icon{
+  width:24px;
+  height: 24px;
+  
+  background-size: 10px;
+
+  background-image: url(./../images/icon/man.png);
+}

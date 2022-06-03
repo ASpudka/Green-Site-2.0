@@ -10,7 +10,9 @@ margin: auto;
 font-size: 0;
 }
 .nav-list-item{
+  width: 14vw;
   display: inline-block;
+  
   position: relative;
   color: var(--text-color);
   font-size: initial;
@@ -45,3 +47,21 @@ font-size: 0;
 section{
   margin-top: 20px;
 }
+
+.seach{
+  width: 12px;
+  height: 12px;
+
+  background-size: 24px;
+  background-position: right bottom;
+
+  background-image: url(./../images/icon/seach.png);
+
+}
+
+@media screen and (max-width: 768px){
+  .navigation{
+    display: none;
+  }
+  }
+  
