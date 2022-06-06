@@ -6,10 +6,23 @@
   font-size: 12px;
 }
 .btn {
+  padding: 1%;
   border: 1px solid var(--head-font-color);
   border-radius: 5%;
-  background-color: #00000000;
-  color: inherit;
+  background-color: var(--main-color);
+  color: white;
+  white-space: nowrap;
+}
+.info-header{
+  text-align: center;
+  font-size: 3rem;  
+  color:var(--main-color)
+}
+
+.format-text{
+  text-indent: 2rem;
+  text-transform: capitalize;
+  text-align: justify;
 }
 @media screen and (min-width: 1024px) {
   :root {
