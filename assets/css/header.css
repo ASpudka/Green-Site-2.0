@@ -7,6 +7,7 @@
 }
 
 .logo {
+  flex-grow: 2;
   align-self: center;
   font-size: 2rem;
   text-indent: 2rem;
@@ -14,7 +15,6 @@
 
 .head-link{
   display: inline-block;
-  
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -39,10 +39,9 @@
   background-image: url(./../images/icon/registration.png);
 }
 .burger{
-  
-  width: 80px;
-  height: 80px;
-  background-size: 80px;
+    width: 20px;
+  height: 20px;
+  background-size: 20px;
 
   background-image: url(./../images/icon/image_button.png);
 }
@@ -53,7 +52,7 @@
 }
 
 @media screen and (min-width: 768px){
-.burger{
+.bg{
   display: none;
 }
 }

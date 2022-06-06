@@ -20,9 +20,9 @@
   margin-left: calc(var(--size-space)*-1);
   margin-right: calc(var(--size-space)*-1);
 }
-.row > *{
+/* .row > *{
   padding: var(--size-space);
-} 
+}  */
 .no-space > *{
   padding: 0;
 }
