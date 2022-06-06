@@ -1,25 +1,24 @@
-:root{
-  --main-color: #65C466;
+:root {
+  --main-color: #65c466;
   --head-font-color: white;
 
-  font-family: 'Mulish', sans-serif;
-  font-family: 'Water Brush', cursive;
+  font-family: "Mulish", sans-serif;
   font-size: 12px;
 }
-.btn{ 
+.btn {
   border: 1px solid var(--head-font-color);
   border-radius: 5%;
   background-color: #00000000;
   color: inherit;
 }
-@media screen and (min-width: 1024px){
-  :root{
+@media screen and (min-width: 1024px) {
+  :root {
     font-size: 12px;
   }
 }
 
-@media screen and (min-width: 1336px){
-  :root{
+@media screen and (min-width: 1336px) {
+  :root {
     font-size: 16px;
   }
 }
