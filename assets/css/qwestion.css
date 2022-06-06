@@ -1,23 +1,47 @@
-
-.online-qwestion-header{
-  font-size: 2rem;
-  color: var(--main-color)
+.stela{
+  margin-top: -10%;
 }
-.wrapper{
-  width:24px;
+.img{
+  width: 80%;
+}
+.online-qwestion-header {
+  font-size: 2rem;
+  color: var(--main-color);
+  text-align: center;
+}
+
+.wrapper {
+  width: 24px;
   height: 24px;
-  
+
   padding: 3%;
   border: 2px solid rgb(219, 213, 213);
   border-radius: 50%;
   background-color: var(--main-color);
 }
 
-.men-icon{
-  width:24px;
-  height: 24px;
-  
-  background-size: 10px;
+.man-icon {
+  width: 64px;
+  height: 64px;
+
+  background-size: 20px;
 
   background-image: url(./../images/icon/man.png);
+}
+.stela-small-points{
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .stela-big-points,
+  .head-link,
+  .wrapper {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .stela-small-points {
+    display: none;
+  }
 }

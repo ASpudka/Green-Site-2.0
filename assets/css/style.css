@@ -3,8 +3,12 @@
   --head-font-color: white;
 
   font-family: 'Mulish', sans-serif;
- 
-  font-size: 12px;
+   font-size: 12px;
+}
+.format-text {
+  text-indent: 2rem;
+  text-transform: capitalize;
+  text-align: justify;  
 }
 .btn{ 
   border: 1px solid var(--head-font-color);
