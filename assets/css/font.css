@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'TrajanPro';
+  src: url(./../fonts/TrajanPro-Bold.woff);
+
+}
+@font-face {
+  font-family: 'TrajanPro';
+  src: url(./../fonts/TrajanPro-Regular.woff);
+  
+}
+@font-face {
+  font-family: 'TrajanPro';
+  src: url(./../fonts/TrajanPro3Regular.ttf);
+}

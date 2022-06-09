@@ -1,10 +1,44 @@
+.stela {
+  width: 100%;
+}
 
 
+.info-header {
+  padding: 5%;
 
+  font-family: TrajanPro-Regular;
+  font-size: 3rem;
+}
+.user-online{
+  background-color: var(--main-color);
+  border: 1px solid #999292;
+  border-radius: 50%;
+  color: var(--);
+}
+.user{
+  width: 32px;
+  height: 32px;
+  background-size: 32px;
+  background-position: center;
 
+  background-image: url(./../images/icon/man.png);
+}
+
+form > * {
+  display: block;
+  margin: 2%;
+
+}
+.tema-qwestion, .massege-gwestion{
+  width: 100%;
+  }
+.massege-gwestion{
+  padding-bottom: 20%;
+}
 @media screen and (max-width: 768px) {
- .stela-big-point{
+  .stela-big-point {
     display: none;
+
   }
 }
 
